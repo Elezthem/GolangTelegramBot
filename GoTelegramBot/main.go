@@ -59,7 +59,7 @@ type Activity struct {
 type Activities []*Activity
 
 func init() {
-	_ = os.Setenv(TOKEN_NAME_IN_OS, "6556766998:AAFO84cusYNd7w95qUJtJsEdER7i0vQRWSA")
+	_ = os.Setenv(TOKEN_NAME_IN_OS, "token")
 
 	if gToken = os.Getenv(TOKEN_NAME_IN_OS); gToken == "" {
 		panic(fmt.Errorf(`failed to load environment varible "%s"`, TOKEN_NAME_IN_OS))
